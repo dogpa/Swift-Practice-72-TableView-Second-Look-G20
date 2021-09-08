@@ -13,6 +13,10 @@
 		2D3AA73826E7329600B0DD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AA73626E7329600B0DD4C /* Main.storyboard */; };
 		2D3AA73A26E7329600B0DD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AA73926E7329600B0DD4C /* Assets.xcassets */; };
 		2D3AA73D26E7329600B0DD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AA73B26E7329600B0DD4C /* LaunchScreen.storyboard */; };
+		2D3AA74526E732BD00B0DD4C /* G20CountryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AA74426E732BD00B0DD4C /* G20CountryStruct.swift */; };
+		2D3AA74726E7336100B0DD4C /* G20CountryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AA74626E7336100B0DD4C /* G20CountryListTableViewController.swift */; };
+		2D3AA74926E7496300B0DD4C /* CountryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AA74826E7496300B0DD4C /* CountryInfoViewController.swift */; };
+		2D3AA74B26E754D500B0DD4C /* WikiPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AA74A26E754D500B0DD4C /* WikiPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2D3AA73926E7329600B0DD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3AA73C26E7329600B0DD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D3AA73E26E7329600B0DD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3AA74426E732BD00B0DD4C /* G20CountryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20CountryStruct.swift; sourceTree = "<group>"; };
+		2D3AA74626E7336100B0DD4C /* G20CountryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20CountryListTableViewController.swift; sourceTree = "<group>"; };
+		2D3AA74826E7496300B0DD4C /* CountryInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoViewController.swift; sourceTree = "<group>"; };
+		2D3AA74A26E754D500B0DD4C /* WikiPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		2D3AA72426E7329600B0DD4C = {
 			isa = PBXGroup;
 			children = (
+				2D3AA74426E732BD00B0DD4C /* G20CountryStruct.swift */,
 				2D3AA72F26E7329600B0DD4C /* Swift Practice # 72 TableView Second Look */,
 				2D3AA72E26E7329600B0DD4C /* Products */,
 			);
@@ -58,11 +67,14 @@
 			children = (
 				2D3AA73026E7329600B0DD4C /* AppDelegate.swift */,
 				2D3AA73226E7329600B0DD4C /* SceneDelegate.swift */,
-				2D3AA73426E7329600B0DD4C /* ViewController.swift */,
 				2D3AA73626E7329600B0DD4C /* Main.storyboard */,
+				2D3AA74626E7336100B0DD4C /* G20CountryListTableViewController.swift */,
+				2D3AA74826E7496300B0DD4C /* CountryInfoViewController.swift */,
+				2D3AA74A26E754D500B0DD4C /* WikiPageViewController.swift */,
 				2D3AA73926E7329600B0DD4C /* Assets.xcassets */,
 				2D3AA73B26E7329600B0DD4C /* LaunchScreen.storyboard */,
 				2D3AA73E26E7329600B0DD4C /* Info.plist */,
+				2D3AA73426E7329600B0DD4C /* ViewController.swift */,
 			);
 			path = "Swift Practice # 72 TableView Second Look";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3AA74726E7336100B0DD4C /* G20CountryListTableViewController.swift in Sources */,
 				2D3AA73526E7329600B0DD4C /* ViewController.swift in Sources */,
 				2D3AA73126E7329600B0DD4C /* AppDelegate.swift in Sources */,
+				2D3AA74B26E754D500B0DD4C /* WikiPageViewController.swift in Sources */,
+				2D3AA74926E7496300B0DD4C /* CountryInfoViewController.swift in Sources */,
 				2D3AA73326E7329600B0DD4C /* SceneDelegate.swift in Sources */,
+				2D3AA74526E732BD00B0DD4C /* G20CountryStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
